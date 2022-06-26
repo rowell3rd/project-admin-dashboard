@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Project Admin Dashboard</title>
   </head>
@@ -11,19 +17,40 @@
     <div class="container">
       <!--SIDEBAR-->
       <div class="sidebar">
-        <h2>Dashboard</h2>
+        <h2>
+          <img src="../icons/desktop-mac-dashboard.png" alt="" /> Dashboard
+        </h2>
         <div class="account">
-          <div>Home</div>
-          <div>Profile</div>
-          <div>Messages</div>
-          <div>History</div>
-          <div>Tasks</div>
-          <div>Communities</div>
+          <div><img src="../icons/home.png" alt="" /> <a href="">Home</a></div>
+          <div>
+            <img src="../icons/account.png" alt="" /> <a href="">Profile</a>
+          </div>
+          <div>
+            <img src="../icons/message-settings.png" alt="" />
+            <a href="">Messages</a>
+          </div>
+          <div>
+            <img src="../icons/history.png" alt="" /> <a href="">History</a>
+          </div>
+          <div><img src="../icons/file.png" alt="" /> <a href="">Tasks</a></div>
+          <div>
+            <img src="../icons/nature-people.png" alt="" />
+            <a href="">Communities</a>
+          </div>
         </div>
         <div class="website-info">
-          <div>Settings</div>
-          <div>Support</div>
-          <div>Privacy</div>
+          <div>
+            <img src="../icons/cog-outline.png" alt="" />
+            <a href="">Settings</a>
+          </div>
+          <div>
+            <img src="../icons/chat-question.png" alt="" />
+            <a href="">Support</a>
+          </div>
+          <div>
+            <img src="../icons/shield-check-outline.png" alt="" />
+            <a href="">Privacy</a>
+          </div>
         </div>
       </div>
       <!--MAIN CONTAINER-->
@@ -46,36 +73,139 @@
           </div>
         </header>
         <main>
-          <h4>Your Projects</h4>
-          <h4>Announcements</h4>
+          <h2 class="head-project">Your Projects</h2>
+          <h2 class="head-announcement">Announcements</h2>
           <div class="card1 card">
-            <div><h3>Super Cool Project</h3></div>
+            <div>
+              <h3>Super Cool Project</h3>
+              <p>
+                Aenean rutrum aliquet quam non fermentum. Nulla facilisi.
+                Vestibulum sed vestibulum purus, et tempus tellus. Etiam blandit
+                leo quis quam auctor sollicitudin. Nam nibh erat, dapibus eget
+                erat eu, blandit dictum est.
+              </p>
+              <div class="icon-container">
+                <img src="../icons/star-plus-outline.png" alt="" />
+                <img src="../icons/eye-off-outline.png" alt="" />
+                <img src="../icons/share-variant.png" alt="" />
+              </div>
+            </div>
           </div>
           <div class="card2 card">
-            <div><h3>Less Cool Project</h3></div>
+            <div>
+              <h3>Less Cool Project</h3>
+              <p>
+                Nunc leo sapien, pulvinar vel metus id, scelerisque faucibus
+                libero
+              </p>
+              <div class="icon-container">
+                <img src="../icons/star-plus-outline.png" alt="" />
+                <img src="../icons/eye-off-outline.png" alt="" />
+                <img src="../icons/share-variant.png" alt="" />
+              </div>
+            </div>
           </div>
           <div class="card3 card">
-            <div><h3>Impossible App</h3></div>
+            <div>
+              <h3>Impossible App</h3>
+              <p>
+                Cras nec tortor tincidunt mi tincidunt varius. Donec non velit
+                sed massa viverra ullamcorper. Ut condimentum leo sed leo
+                faucibus, at viverra metus viverra.
+              </p>
+              <div class="icon-container">
+                <img src="../icons/star-plus-outline.png" alt="" />
+                <img src="../icons/eye-off-outline.png" alt="" />
+                <img src="../icons/share-variant.png" alt="" />
+              </div>
+            </div>
           </div>
           <div class="card4 card">
-            <div><h3>Easy Peasy App</h3></div>
+            <div>
+              <h3>Easy Peasy App</h3>
+              <p>
+                Nulla vel massa malesuada, tempor odio ut, varius lacus. Sed
+                fermentum felis sit amet cursus semper. Pellentesque
+              </p>
+              <div class="icon-container">
+                <img src="../icons/star-plus-outline.png" alt="" />
+                <img src="../icons/eye-off-outline.png" alt="" />
+                <img src="../icons/share-variant.png" alt="" />
+              </div>
+            </div>
           </div>
           <div class="card5 card">
-            <div><h3>Ad Blocker</h3></div>
+            <div>
+              <h3>Ad Blocker</h3>
+              <p>
+                Suspendisse tempor lacus eu tortor porttitor, vitae tempus lorem
+                rutrum. Pellentesque magna elit, rhoncus vel ex pharetra,
+                egestas viverra ipsum. Nam vitae tempor purus.
+              </p>
+              <div class="icon-container">
+                <img src="../icons/star-plus-outline.png" alt="" />
+                <img src="../icons/eye-off-outline.png" alt="" />
+                <img src="../icons/share-variant.png" alt="" />
+              </div>
+            </div>
           </div>
           <div class="card6 card">
-            <div><h3>Money Maker</h3></div>
+            <div>
+              <h3>Money Maker</h3>
+              <p>Maecenas maximus odio et sollicitudin fringilla.</p>
+              <div class="icon-container">
+                <img src="../icons/star-plus-outline.png" alt="" />
+                <img src="../icons/eye-off-outline.png" alt="" />
+                <img src="../icons/share-variant.png" alt="" />
+              </div>
+            </div>
           </div>
           <div class="announcements">
-            <div>Site Maintenance</div>
-            <div>Communiy Share Day</div>
-            <div>Updated Privacy Policy</div>
+            <div>
+              <h4>Site Maintenance</h4>
+              <p>
+                Aenean rutrum aliquet quam non fermentum. Nulla facilisi.
+                Vestibulum sed vestibulum purus, et tempus tellus. Etiam blandit
+                leo quis quam auctor sollicitudin. Nam nibh erat, dapibus eget
+                erat eu, blandit dictum est.
+              </p>
+            </div>
+            <div>
+              <h4>Communiy Share Day</h4>
+              <p>
+                Aenean rutrum aliquet quam non fermentum. Nulla facilisi.
+                Vestibulum sed vestibulum purus, et tempus tellus. Etiam blandit
+                leo quis quam auctor sollicitudin. Nam nibh erat, dapibus eget
+                erat eu, blandit dictum est.
+              </p>
+            </div>
+            <div>
+              <h4>Updated Privacy Policy</h4>
+              <p>
+                Aenean rutrum aliquet quam non fermentum. Nulla facilisi.
+                Vestibulum sed vestibulum purus, et tempus tellus. Etiam blandit
+                leo quis quam auctor sollicitudin. Nam nibh erat, dapibus eget
+                erat eu, blandit dictum est.
+              </p>
+            </div>
           </div>
           <div class="trending">
-            <div>@tegan</div>
-            <div>@morgan</div>
-            <div>@kendall</div>
-            <div>@alex</div>
+            <div>
+              <img class="profile-pic" src="" alt="" />
+              <h3>@terry</h3>
+            </div>
+            <div>
+              <img class="profile-pic" src="" alt="" />
+              <h3>@morgan</h3>
+            </div>
+            <div>
+              <img class="profile-pic" src="" alt="" />
+              <h3>@kendall</h3>
+            </div>
+            <div>
+              <img class="profile-pic" src="" alt="" />
+              <h3>@alex</h3>
+            </div>
           </div>
         </main>
       </div>
